@@ -39,11 +39,11 @@ public enum SchemaVersion
     /**
      * Draft v4 (default version)
      */
-    DRAFTV4("http://json-schema.org/draft-04/schema#", "/draftv4/schema"),
+    DRAFTV4("http://json-schema.org/draft-04/schema#", "/draftv4/_schema"),
     /**
      * Draft v3
      */
-    DRAFTV3("http://json-schema.org/draft-03/schema#", "/draftv3/schema"),
+    DRAFTV3("http://json-schema.org/draft-03/schema#", "/draftv3/_schema"),
     ;
 
     private final URI location;
